@@ -1,4 +1,4 @@
-会社のコーポレートサイト
+canvasを使用した２Dゲーム
 http://yourwebsite.xsrv.jp/tetris/
 
 期間：1週間
