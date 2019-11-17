@@ -1,5 +1,5 @@
 会社のコーポレートサイト
-http://yourwebsite.xsrv.jp/DREAM/
+http://yourwebsite.xsrv.jp/dream/
 
 期間：１ヶ月
 
