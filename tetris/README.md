@@ -3,7 +3,7 @@ http://yourwebsite.xsrv.jp/tetris/
 
 期間：1週間
 
-使用言語：　HTML（canvas）　CSS　JavaScript
+使用言語：　HTML（canvas）　CSS　JavaScript
 
 フレームワーク：　Bootstrap
 
