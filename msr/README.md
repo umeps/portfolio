@@ -17,7 +17,7 @@ http://yourwebsite.xsrv.jp/msr/
 
 　　　メールフォームの作成
 
-     レスポンシブ対応
+     レスポンシブ対応　
 
 
 

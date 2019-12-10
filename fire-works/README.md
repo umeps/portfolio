@@ -5,7 +5,7 @@ http://yourwebsite.xsrv.jp/fire-works/
 
 使用言語：　HTML(canvas)　JavaScript
 
-備考：　夏の花火の時期に作成しました。
+備考：　夏の花火の時期に作成しました。　
 
 
 

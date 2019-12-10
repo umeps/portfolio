@@ -19,7 +19,7 @@ http://yourwebsite.xsrv.jp/tetris/
 
 　　　衝突判定の設定
 
-　　　ブロックの回転
+　　　ブロックの回転　
 
 
 
