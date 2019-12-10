@@ -12,4 +12,4 @@ http://yourwebsite.xsrv.jp/3D-washop/
 　　　　　　　　　Jquery(Modal実装)
 
 備考：レイアウト、デザイン、画像の編集まで行いました。
-　　　レスポンシブは未実装です。
+　　　レスポンシブは未実装です。 
