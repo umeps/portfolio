@@ -7,14 +7,19 @@
     <title>Document</title>
 
     <style>
+        body{
+            background-image: url(./wall.jpg);
+            background-size: cover;
+        }
          button{
-            padding: 2rem;
+            padding: 4rem;
             display: block;
             margin: auto;
             background: gray;
-            opacity: .5;
-            color: white;
-            text-shadow: 2px 2px black;
+            opacity: .7;
+            font-size: 2rem;
+            color: #0f0f0f;
+            text-shadow: 2px 2px rgb(41, 37, 37);
          }
          .container{
              display: flex;
@@ -22,7 +27,7 @@
          div {
              width: 50%;
              height: 50%;
-             margin: auto;
+             margin:300px auto;
          }
 
          div img{
@@ -33,9 +38,7 @@
 </head>
 <body>
     <div class="container">
-        <div>
-            <img src="marching.png" alt="">
-        </div>
+        
         <button onclick="btn()">紙吹雪ボタン</button>
     </div>
 
