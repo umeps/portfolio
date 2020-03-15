@@ -1,0 +1,27 @@
+.marker-animation {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, transparent), color-stop(50%, #fffa99));
+  background-image: linear-gradient(left, transparent 50%, #fffa99 50%);
+  background-size: 200% .9em;
+  background-repeat: repeat-x;
+  -webkit-animation: marker 2s linear 0s 1 forwards;
+          animation: marker 2s linear 0s 1 forwards;
+}
+
+@-webkit-keyframes marker {
+  from {
+    background-position: 0 .9em;
+  }
+  to {
+    background-position: -100% .5em;
+  }
+}
+
+@keyframes marker {
+  from {
+    background-position: 0 .9em;
+  }
+  to {
+    background-position: -100% .5em;
+  }
+}
+/*# sourceMappingURL=style.css.map */

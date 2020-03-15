@@ -1,0 +1,161 @@
+header {
+  width: 100%;
+  padding: .5rem 3rem;
+  background: #FFF;
+  overflow: hidden;
+  position: fixed;
+}
+
+header .logo {
+  float: left;
+  padding: 1rem;
+}
+
+header .logo img {
+  width: 30%;
+}
+
+header nav {
+  float: right;
+  padding: 1rem;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+header nav ul li {
+  margin: 0 20px;
+}
+
+.top_content {
+  background-image: url(https://koloha.co.jp/img/brands/lantelno/main-img.jpg);
+  background-size: cover;
+  height: 80vh;
+}
+
+.top_text {
+  margin: -2rem;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 480px) {
+  .top_text {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.top_text_left {
+  float: left;
+  padding: 0 10rem;
+  width: 50%;
+}
+
+@media screen and (max-width: 480px) {
+  .top_text_left {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.top_text_left img {
+  width: 100%;
+}
+
+.top_text_left p {
+  letter-spacing: .25em;
+}
+
+.top_text_right {
+  float: right;
+  padding-right: 10rem;
+  width: 50%;
+}
+
+@media screen and (max-width: 480px) {
+  .top_text_right {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.top_text_right .btn_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media screen and (max-width: 480px) {
+  .top_text_right .btn_area {
+    display: block;
+  }
+}
+
+.top_text_right .btn_area_left {
+  margin-right: 10px;
+  background: #226699;
+  height: 70px;
+  width: 40%;
+  border-radius: 10px;
+  color: #FFF;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 480px) {
+  .top_text_right .btn_area_left {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.top_text_right .btn_area_left div {
+  margin-top: 10%;
+}
+
+.top_text_right .btn_area_left div span {
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.top_text_right .btn_area_right {
+  background: #22516B;
+  height: 70px;
+  width: 40%;
+  border-radius: 10px;
+  color: #FFF;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+  .top_text_right .btn_area_right {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.top_text_right .btn_area_right div {
+  margin-top: 10%;
+}
+
+.top_text_right .btn_area_right div span {
+  margin-left: 20%;
+  margin-right: 5%;
+}
+/*# sourceMappingURL=style.css.map */

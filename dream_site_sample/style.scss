@@ -1,0 +1,116 @@
+$breakpoints: (
+  'sm': 'screen and (max-width: 480px)',
+  'md': 'screen and (max-width: 768px)',
+  'lg': 'screen and (max-width: 1000px)',
+  'xl': 'screen and (max-width: 1200px)',
+) !default;
+
+@mixin mq($breakpoint: sm) {
+    @media #{map-get($breakpoints, $breakpoint)} {
+      @content;
+    }
+  }
+
+header{
+    width: 100%;
+    padding: .5rem 3rem;
+    background: #FFF;
+    overflow: hidden;
+    position: fixed;
+
+    .logo{
+        float: left;
+        padding: 1rem;
+            img{width: 30%;}
+    }
+
+    nav{
+        float: right;
+        padding: 1rem;
+
+            ul{
+                display: flex;
+                justify-content: space-between;
+                list-style: none;
+
+                    li{margin: 0 20px;}
+            }
+    }
+
+}
+
+.top_content{
+    background-image: url(https://koloha.co.jp/img/brands/lantelno/main-img.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+
+.top_text{
+    margin: -2rem;
+    overflow: hidden;
+    @include mq(){
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;}
+
+        &_left{
+            float: left;
+            padding: 0 10rem ;
+            width: 50%;
+            @include mq(){  
+                display: block;
+                width: 100%;
+                            padding: 0 ;}
+            img{width: 100%;}
+            p{letter-spacing: .25em;}
+        }
+        &_right{
+            float: right;
+            padding-right: 10rem ;
+            width: 50%;
+            @include mq(){display: block;
+                            width: 100%;
+                            padding: 0;}
+                .btn_area{
+                    display: flex;
+                    justify-content: flex-end;
+                    @include mq(){display: block;}
+                        &_left{
+                            margin-right: 10px;
+                            background: #226699;
+                            height: 70px;
+                            width: 40%;
+                            border-radius: 10px;
+                            color:#FFF;
+                            font-weight: bold;
+                            vertical-align: middle;
+                            @include mq(){
+                                width: 100%;
+                                padding: 0;
+                                margin: 0;}
+                                div{margin-top:10%;
+                                    span{margin-left: 10%;
+                                         margin-right:5%;}
+                                    }
+                        }
+                        &_right{
+                            background: #22516B;
+                            height: 70px;
+                            width: 40%;
+                            border-radius: 10px;
+                            color:#FFF;
+                            font-weight: bold;
+                            @include mq(){
+                                width: 100%;
+                                padding: 0;
+                                margin: 0;}
+                                div{margin-top:10%;
+                                    span{margin-left: 20%;
+                                        margin-right:5%;}
+                                    }
+                        }
+            }
+        }
+}
+

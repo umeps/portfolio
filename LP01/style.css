@@ -1,0 +1,200 @@
+.first_section img {
+  width: 100%;
+}
+
+.second_section, .third_section, .fifth_section {
+  margin: 100px 0;
+}
+
+.second_section p:nth-of-type(1), .third_section p:nth-of-type(1), .fifth_section p:nth-of-type(1) {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.second_section p:nth-of-type(2), .third_section p:nth-of-type(2), .fifth_section p:nth-of-type(2) {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #F5A706;
+}
+
+.second_section div, .third_section div, .fifth_section div {
+  text-align: center;
+}
+
+.second_section p:nth-of-type(3), .third_section p:nth-of-type(3), .fifth_section p:nth-of-type(3) {
+  font-size: 1.2rem;
+  letter-spacing: .2rem;
+  line-height: 2.5;
+  margin-top: 2rem;
+}
+
+.second_section span, .third_section span, .fifth_section span {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, #feeb6c));
+  background: linear-gradient(transparent 50%, #feeb6c 50%);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.second_section span:nth-of-type(1), .third_section span:nth-of-type(1), .fifth_section span:nth-of-type(1) {
+  font-size: 2rem;
+}
+
+.second_section p:nth-of-type(4), .third_section p:nth-of-type(4), .fifth_section p:nth-of-type(4) {
+  font-size: 1.2rem;
+  letter-spacing: .2rem;
+  line-height: 2.5;
+  margin-top: 2rem;
+}
+
+.our {
+  background-image: url(./img/bg-1.png);
+  padding: 1rem;
+  text-align: center;
+}
+
+.our .our_1 {
+  color: #F5A706;
+  font-size: 2rem;
+  text-shadow: 0 4px 1px #fff, 4px 0 1px #fff, -4px 0 1px #fff, 0 -4px 1px #fff, 4px 4px 1px #fff, -4px -4px 1px #fff, -4px 4px 1px #fff, 4px -4px 1px #fff;
+}
+
+.our .our_2 {
+  font-size: 1.5rem;
+  margin-bottom: -1rem;
+  text-shadow: 0 4px 1px #fff, 4px 0 1px #fff, -4px 0 1px #fff, 0 -4px 1px #fff, 4px 4px 1px #fff, -4px -4px 1px #fff, -4px 4px 1px #fff, 4px -4px 1px #fff;
+}
+
+.our span {
+  color: #F5A706;
+}
+
+.our div:nth-of-type(1) {
+  width: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #FFF;
+  margin: 0 auto;
+  padding: 1rem .5rem;
+  border-radius: 10px;
+}
+
+.our .fa-square, .our .fa-phone-volume {
+  color: #F5A706;
+  padding: .5rem;
+}
+
+.our .our_call {
+  font-size: 2rem;
+}
+
+.our .form_btn {
+  color: white;
+  background: #F5A706;
+  -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 3em;
+}
+
+.force_section {
+  margin: 100px 0;
+}
+
+.force_section p {
+  letter-spacing: .2rem;
+  line-height: 2.5;
+}
+
+.force_section p:nth-of-type(1) {
+  text-align: center;
+  background-image: url(./img/title-2-bg.png);
+  background-size: 100% 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  margin: 5rem 0;
+}
+
+.force_section div {
+  text-align: center;
+}
+
+.force_section p:nth-of-type(2) {
+  margin: 5rem 0;
+}
+
+.force_section span {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, #feeb6c));
+  background: linear-gradient(transparent 50%, #feeb6c 50%);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.pic_section div {
+  text-align: center;
+}
+
+.pic_section div:nth-of-type(3) {
+  margin: 5rem 0;
+}
+
+.fifth_section .office_pic_01 img {
+  width: 50%;
+}
+
+.fifth_section .office_pic {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem 0;
+}
+
+.fifth_section .office_pic img {
+  width: 100%;
+}
+
+.contact {
+  background-image: url(./img/bg-2.jpg);
+}
+
+.contact p:nth-of-type(1) {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.contact p:nth-of-type(2) {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #F5A706;
+}
+
+.contact span {
+  color: red;
+}
+
+.contact .dl {
+  margin: 1rem 0;
+}
+
+.contact .content_top {
+  vertical-align: top;
+}
+
+.contact .w80 {
+  height: 80px;
+  width: 50%;
+}
+
+.marker-animation {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, transparent), color-stop(50%, #fffa99));
+  background-image: linear-gradient(left, transparent 50%, #fffa99 50%);
+  background-position: 0 .9em;
+  background-size: 200% .9em;
+  background-repeat: repeat-x;
+  -webkit-transition: all 5s ease;
+  transition: all 5s ease;
+}
+
+.marker-animation.active {
+  background-position: -100% .5em;
+}
+/*# sourceMappingURL=style.css.map */
