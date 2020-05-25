@@ -154,6 +154,7 @@
 
 .contact {
   background-image: url(./img/bg-2.jpg);
+  padding-bottom: 5em;
 }
 
 .contact p:nth-of-type(1) {
@@ -171,8 +172,14 @@
   color: red;
 }
 
-.contact .dl {
+.contact .form-group {
   margin: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .contact .content_top {
@@ -181,7 +188,16 @@
 
 .contact .w80 {
   height: 80px;
-  width: 50%;
+  width: 80%;
+}
+
+.contact .submit {
+  text-align: center;
+}
+
+.contact .center {
+  display: block;
+  margin: auto;
 }
 
 .marker-animation {

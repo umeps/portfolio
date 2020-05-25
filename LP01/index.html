@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,7 +54,7 @@
                 </div>
                 <div class="col-sm-4">
                     <p><i class="fas fa-square"></i>WEBフォームからのお申し込み・お問い合わせ</p>
-                    <a name="form_btn" id="" class="btn form_btn" href="#form" role="button">無料ヒアリングお申し込みフォーム ></a>
+                    <a class="btn form_btn" href="#form" role="button">無料ヒアリングお申し込みフォーム</a>
                 </div>
             </div>
     </div>
@@ -105,27 +105,32 @@
                 <p>弊社にご興味をもっていただき誠にありがとうございます。このフォームは補助金を使ったホームページ作成のヒアリング申し込みフォームです。以下のフォームに必要事項をご入力の上、「確認画面へ進む」ボタンをクリックしてください。<br>
                     <span>［必須］</span>項目は、必ずご入力をお願いいたします。</p>
 
-                    <form action="">
-                        <dl>
-                        <label for="" class="content_top">会社名<span>［必須］</span>：</label>
-                        <input type="text" class="w80">
-                        </dl>
-                        <dl>
-                        <label for="" class="content_top">担当者名<span>［必須］</span>：</label>
-                        <input type="text" class="w80">
-                        </dl>
+                    <form method="post" action="sample.php">
+                        <div class="form-group">
+                        <label for="com" class="content_top">会社名<span>［必須］</span></label>
+                        <input type="text" class="w80" id="com">
+                        </div>
+                        <div class="form-group">
+                        <label for="name" class="content_top">担当者名<span>［必須］</span></label>
+                        <input type="text" class="w80" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="maill" class="content_top">Eメールアドレス<span>［必須］</span></label>
+                            <input type="email" class="w80" id="maill">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputContent" class="content_top">内容</label>
+                          <input type="text" class="w80" id="exampleInputContent">
+                        </div>
+                        <div class="submit">
+                          <input type="checkbox" id="check1">
+                          <label class="content_top" for="check1">記憶する</label>
+                        </div>
+                        <button type="submit" class="center btn btn-primary">送信する</button>
+                        
                     </form>
             </div>
         </div>
-    
-
-        <!-- <span class="marker_animation"><strong>いいね、フォローするだけで</strong></span><br>
-
-<span class="marker_animation">
-<strong>数百円貰える高額案件も！</strong></span><br>
-
-<span class="marker_animation">
-<strong>報酬は最短当日お支払い</strong></span> -->
 
     
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
